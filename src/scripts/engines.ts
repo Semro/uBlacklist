@@ -18,7 +18,7 @@ export const ENGINES: Engine[] = [
     id: 'duckduckgo',
     name: 'DuckDuckGo',
     matches: [
-      'https://www.duckduckgo.com/search?*',
+      'https://duckduckgo.com/?*',
     ]
   }
 ];
