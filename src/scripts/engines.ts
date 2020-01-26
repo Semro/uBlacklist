@@ -14,4 +14,11 @@ export const ENGINES: Engine[] = [
       'https://www.startpage.com/sp/search?*',
     ],
   },
+  {
+    id: 'duckduckgo',
+    name: 'DuckDuckGo',
+    matches: [
+      'https://duckduckgo.com/?*',
+    ]
+  }
 ];

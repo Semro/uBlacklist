@@ -4,7 +4,7 @@ const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 const LicenseCheckerWebpackPlugin = require('license-checker-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const ENGINE_IDS = ['startpage'];
+const ENGINE_IDS = ['startpage', 'duckduckgo'];
 
 const browser = process.env.BROWSER || 'chrome';
 const env = process.env.NODE_ENV || 'development';
